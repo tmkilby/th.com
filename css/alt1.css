@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body {
+	letter-spacing: 5px;
+	background: #f0f0f0;
+	color: #333333;
+}
+#header {
+	height: 53px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	width: 100%;
+	background: #f0f0f0;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+#header ul {
+	padding: 1em 0;
+	z-index: 100;
+	margin: 0;
+	float: right;
+}
+#header li {
+	list-style: none;
+	display: inline;
+	float: left;
+}
+#header li:first-child {
+	padding-left: .7em;
+}
+#header li:last-child {
+	
+}
+#header a {
+	text-decoration: none;
+	font-variant: small-caps;
+	color: #333333;
+	padding: 1em;
+}
+#header a:hover, #header a:active {
+	color: orange;
+	background: #333333;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	box-shadow: 10px 10px 5px #888888;
+}
+#myName {
+	padding: 1em 20px;
+	color: orange;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 25px;
+	position: absolute;
+	top: 65px;
+	right: 0px;
+	text-shadow: 1px 3px 1px #888888;
+}
+.contentArea {
+	padding: 20px;
+	background: #333333;
+	color: #f0f0f0;
+	margin: 0 0;
+	z-index: 2;
+	position: relative;
+	border-top: 1px solid orange;
+	border-bottom: 1px solid orange;
+	min-height: 100%;
+	top: -135px;
+}
+h1, h2, h3 {
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+h1 {
+	color: #333333;
+	margin-bottom: 0;
+	z-index: 3;
+	position: relative;
+	width: 225px;
+	text-align: center;
+	top: -135px;
+}
+.h1BG {
+	background: #d4ffbb;
+	text-align: center;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	width: 225px;
+	height: 200px;
+	vertical-align: middle;
+	z-index: 1;
+	position: relative;
+	top: 30px;
+	box-shadow: 10px 10px 5px #888888;
+}
+h2 {
+	color: orange;
+}
+.contentArea p {
+	letter-spacing: 2px;
+}
+.hide {
+	display: none;
+}
+.show {
+	display: block;
+	height: 70%
+}
+form {
+	text-align: center;
+	width: 350px;
+}
+.contactInputs {
+	padding: 2em 0;
+	width: 350px;
+}
+.contactInputs input, .contactInputs textarea {
+	float: right;
+	width: 200px; 
+	text-align: left;
+}
+.submitButton {
+	background: orange;
+	border: none;
+	border-radius: 50%;
+	padding: 15px;
+	width: 80px;
+	color: #333333;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-variant: small-caps;
+}
+#message {
+	height: 90px;
+}
+#message input {
+	width: 200px; 
+	height: 90px;
+}
