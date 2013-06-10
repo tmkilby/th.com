@@ -46,12 +46,8 @@
 				</nav>
 			</div>
         	<div class="codeImg"></div>
-	 		<div class="homeText">Hello. I am a coder, and I love the internet. 
-	 			I love exploring it, learning from it, and contributing to it. 
-	 			Check out some projects I've worked on, and be sure to download my
-	 			resume. Some of my ramblings are over in the blog, and feel free
-	 			to leave a comment. If you're interested in working with me, you can contact
-	 			me here. Thanks for visiting!</div>
+	 		<div class="homeText">I'm a software engineer. What does that mean? It means I design and develop efficient, bug-free applications
+		that serve a purpose.</div>
         </div>
  		<div class="page hide show" id="Home">
 	 		<?php require('pages/home.php') ?>
